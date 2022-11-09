@@ -16,7 +16,9 @@ A carousel would give me the opportunity to showcase each of these images indepe
 In the first instance, I want my carousel to replace the image grid that is at the top of the page. I also want the page to redirect the user automatically to it once a set amount of time has passed in the webpage. I will use 'setTimeout()' method for a function to be triggered once the set amount of time has passed. The function will use the classList property of the grid element to hide it, and again use the classList property of the carousel to show it (carousel will be hidden by default).
 
 The carousel basic structure will be:
+
   1.`<div>` containing other `<div>`s with the image slides.
+  
   2.`<div>` containing the bottom 'dots' to indicate the navigation of each image.
 
 
